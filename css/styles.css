@@ -413,9 +413,6 @@ color: #ffffff;
     align-items: center;
     gap: 24px;
 }
-.subscribe-row input {
-    flex: 1;
-}
 
 input {
 font-family: inherit;

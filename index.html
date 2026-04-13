@@ -398,8 +398,8 @@
             </ul>
         </div>
         <div class="footer-subscribe-email">
-            <form class="subscribe-form">
-            <p class="subscribe-title">Subscribe</p>
+        <p class="subscribe-title">Subscribe</p>  
+        <form class="subscribe-form">
             <div class="subscribe-row">
                 <input class="subscribe-email" type="email" name="email" placeholder="E-mail">
                 <button class="subscribe-button" type="submit">Subscribe
@@ -412,11 +412,11 @@
         </div>
     </div>
     </footer>
-    <div class="modal-overlay">
+    <div class="modal-overlay is-open">
         <div class="modal">
             <div class="icon-close-bnt">
                 <button class="close-bnt" type="button">
-                <svg class="close-icon" viewBox="0 0 32 32" width="8" height="8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <svg class="close-icon" viewBox="0 0 32 32" fill="currentColor" width="8" height="8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <use href="./images/icons.svg#icon-close"></use>
                 </svg>
                 </button>
@@ -454,7 +454,8 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="form-field textarea-field">
+                    <div class="form-group">
+                    <div class="form-field">
                     <label for="comment">Comment</label>
                         <div class="input-wrapper">
                             <textarea class="textarea-box" id="comment" name="comment" placeholder="Text input"></textarea>
@@ -465,7 +466,7 @@
                 <input class="check-box-form visually-hidden" type="checkbox" id="privacy-policy" name="privacy-policy" value="true" checked/>
                 <label class="label-text-check-box" for="privacy-policy">
                 <span class="custom-checkbox">
-                <svg class="custom-checkbox-icon" width="10" height="8">
+                <svg class="custom-checkbox-icon" fill="currentColor" width="10" height="8">
                 <use href="./images/icons.svg#icon-check"></use>
                 </svg>
                 </span>
@@ -473,6 +474,7 @@
                 <a class="privacy-link" href="">Privacy Policy</a>
                 </label>
             </div>
+                    </div>
                     </div>
             <div class="button-send">
                 <button type="submit" class="bnt-send">Send</button>
